@@ -1304,7 +1304,7 @@ def add_channels_fm_k7abd_digital_repeaters_file(k7abd_digital_file_name,
         zone_name_list = zone_name.split(';')
         zone_name = zone_name_list[0]
         ch_prefix = zone_name_list[1]
-        ch_prefix = ch_prefix.lower()
+        #ch_prefix = ch_prefix.lower()
 
         # Short circuit if repeater is in rptr_filter_list
         if zone_name in rptr_filter_list:
